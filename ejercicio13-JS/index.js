@@ -1,0 +1,10 @@
+const name = "Brian";
+const lastName = "Basualdo";
+const estudiante = name.concat(" ", lastName); 
+const estudianteMayus = estudiante.toUpperCase();
+const estudianteMinus = estudiante.toLowerCase();
+const letters = estudiante.length;
+const letterName = estudiante.charAt(0);
+const lastLetterLastName = estudiante.charAt(11);
+const noSpace = estudiante.trim();
+const boolean = estudiante.includes(name);
